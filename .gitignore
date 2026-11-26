@@ -1,0 +1,273 @@
+## Visual Studio / .NET
+## Based on https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+## Deduplicated, grouped and alphabetized.
+
+# ---------------------------------------------------------------------------
+# User-specific files
+# ---------------------------------------------------------------------------
+*.rsuser
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# ---------------------------------------------------------------------------
+# Build results
+# ---------------------------------------------------------------------------
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]in/
+[Ll]og/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+bld/
+x64/
+x86/
+
+# ---------------------------------------------------------------------------
+# Visual Studio cache / options / tools
+# ---------------------------------------------------------------------------
+.vs/
+#.opencode/
+*.cachefile
+*.[Cc]ache
+!?*.[Cc]ache/
+*.VC.db
+*.VC.VC.opendb
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+ipch/
+.ntvs_analysis.dat
+
+# ---------------------------------------------------------------------------
+# ASP.NET Scaffolding
+# ---------------------------------------------------------------------------
+ScaffoldingReadMe.txt
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# ---------------------------------------------------------------------------
+# Generated files
+# ---------------------------------------------------------------------------
+Generated\ Files/
+Generated_Code/
+
+# ---------------------------------------------------------------------------
+# Test results
+# ---------------------------------------------------------------------------
+[Bb]uild[Ll]og.*
+[Tt]est[Rr]esult*/
+TestResult.xml
+*.VisualState.xml
+_Chutzpah*
+BenchmarkDotNet.Artifacts/
+FakesAssemblies/
+OpenCover/
+
+# ---------------------------------------------------------------------------
+# ATL / C++ build output
+# ---------------------------------------------------------------------------
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+*_h.h
+*_i.c
+*_p.c
+*.iobj
+*.ipdb
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ---------------------------------------------------------------------------
+# Profiler / tracing
+# ---------------------------------------------------------------------------
+*.e2e
+*.psess
+*.sap
+*.vsp
+*.vspx
+
+# ---------------------------------------------------------------------------
+# TFS / Azure DevOps
+# ---------------------------------------------------------------------------
+$tf/
+*.gpState
+
+# ---------------------------------------------------------------------------
+# .NET add-ins and analyzers
+# ---------------------------------------------------------------------------
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.JustCode
+.cr/personal
+_TeamCity*
+*.dotCover
+.axoCover/*
+!.axoCover/settings.json
+*.coverage
+*.coveragexml
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+*.mm.*
+AutoTest.Net/
+*.GhostDoc.xml
+StyleCopReport.xml
+FakesAssemblies/
+
+# ---------------------------------------------------------------------------
+# CSS / web tooling
+# ---------------------------------------------------------------------------
+.sass-cache/
+
+# ---------------------------------------------------------------------------
+# Installer / ClickOnce / publish
+# ---------------------------------------------------------------------------
+[Ee]xpress/
+
+publish/
+PublishScripts/
+*.[Pp]ublish.xml
+*.azurePubxml
+*.publishproj
+*.publishsettings
+
+# ---------------------------------------------------------------------------
+# NuGet / Paket / FAKE
+# ---------------------------------------------------------------------------
+*.nupkg
+*.nuget.props
+*.nuget.targets
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+.paket/paket.exe
+paket-files/
+.fake/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---------------------------------------------------------------------------
+# Azure / Service Fabric / cloud
+# ---------------------------------------------------------------------------
+csx/
+*.build.csdef
+ecf/
+rcf/
+ServiceFabricBackup/
+*.pfx
+ASALocalRun/
+
+# ---------------------------------------------------------------------------
+# Windows Store / UWP
+# ---------------------------------------------------------------------------
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+
+# ---------------------------------------------------------------------------
+# Misc build artefacts
+# ---------------------------------------------------------------------------
+ClientBin/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.publishsettings
+orleans.codegen.cs
+
+# Including strong name files can present a security risk
+# (https://github.com/github/gitignore/pull/2483#issue-259490424)
+#*.snk
+
+# ---------------------------------------------------------------------------
+# Upgrade / migration backups
+# ---------------------------------------------------------------------------
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.htm
+UpgradeLog*.XML
+*.rptproj.bak
+
+# ---------------------------------------------------------------------------
+# SQL Server / Business Intelligence
+# ---------------------------------------------------------------------------
+*.ldf
+*.mdf
+*.ndf
+*.bim.layout
+*.bim_*.settings
+*.rdl.data
+*.rptproj.rsuser
+*- Backup*.rdl
+
+
+
+# ---------------------------------------------------------------------------
+# Node.js / Python tools for Visual Studio
+# ---------------------------------------------------------------------------
+node_modules/
+__pycache__/
+*.pyc
+
+# ---------------------------------------------------------------------------
+# JetBrains Rider / IDE
+# ---------------------------------------------------------------------------
+.idea/
+*.sln.iml
+
+# ---------------------------------------------------------------------------
+# Other editors / add-ins
+# ---------------------------------------------------------------------------
+*.tss
+*.jmconfig
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+*.binlog
+*.nvuser
+.mfractor/
+.localhistory/
+healthchecksdb
+
+# ---------------------------------------------------------------------------
+# Local configuration (contains secrets — keep ignored)
+# ---------------------------------------------------------------------------
+appsettings*.json
+
+# ---------------------------------------------------------------------------
+# Project specific
+# ---------------------------------------------------------------------------
+basir_1_7/Content/
